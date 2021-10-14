@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// day la mot thuat toan kiem tra uoc voi do phuc tap O(n ^1/3) 
-// e dua vao y tuong duoi duong link o duoi nha thay
-// https://codeforces.com/blog/entry/22317
- void sang(int n, bool prime[],bool primesquare[], int a[])
+void sang(int n, bool prime[],bool primesquare[], int a[])
 {
     for (int i = 2; i <= n; i++)
         prime[i] = true; 
